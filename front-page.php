@@ -1,7 +1,7 @@
 <?php 
 
 /**
- * Blog page template
+ * Front page template
  * 
  * @package Aquila
  */
@@ -10,7 +10,7 @@
 ?>
 
 <div>
-    <h2>Blog Content</h2>
+    <h2>Front page content</h2>
 </div>
 
 <?php
