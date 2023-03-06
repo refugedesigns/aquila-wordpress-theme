@@ -16,6 +16,7 @@
         // load classes
         Assets::get_instance();
         Menus::get_instance();
+        Meta_Boxes::get_instance();
         $this->setup_hooks();     
     }
     
@@ -40,6 +41,9 @@
         ]);
 
         add_theme_support('post-thumbnails');
+
+        //Register image size 
+        add_image_size('featured_thumbnail', 350, 233, true);
 
         add_theme_support('customize-selective-refresh-widgets');
         
